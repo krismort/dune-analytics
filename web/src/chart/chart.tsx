@@ -83,7 +83,7 @@ export class Chart extends React.Component<any, any> {
           }
         },
         height: 350,
-        type: 'bar',
+        type: this.props.type || 'bar',
       },
       plotOptions: {
         bar: {
@@ -149,7 +149,7 @@ export class Chart extends React.Component<any, any> {
 
     return (
       <div id="chart">
-        <ReactApexChart options={options} series={series} type="bar" height={350} />
+        <ReactApexChart options={options} series={series} type={this.props.type || 'bar'} height={350} />
       </div>
     );
   }

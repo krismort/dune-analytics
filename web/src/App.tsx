@@ -4,7 +4,7 @@ import './App.css';
 
 import {MySQLEditor} from './mysql-editor';
 import {QueryResultTable} from './query-result-table';
-import { Tab, Tabs, Navbar, Alignment} from "@blueprintjs/core";
+import { Tab, Tabs, Button} from "@blueprintjs/core";
 import {Chart} from './chart';
 import {service} from './services';
 
@@ -21,7 +21,21 @@ ORDER BY 1;
 
 export default class App extends React.Component {
   state = {
-    selTab: '1',
+    selTab: '0',
+    tabs: [
+      {
+        id: '0',
+        key: '0',
+        type: 'table',
+        title: 'Table'
+      },
+      {
+        id: '1',
+        key: '1',
+        type: 'bar',
+        title: 'Bar chart'
+      }
+    ],
     queryString,
     rows: [] as any[],
     columns: [] as any[],
@@ -48,10 +62,32 @@ export default class App extends React.Component {
 
   setQueryString = (queryString: string) => this.setState({queryString});
 
-  renderAdd = () => <div>Add visualisation form here</div>;
+  addAreaChart = () => {
+    const {tabs} = this.state;
+    const id = tabs.length.toString();
+    tabs.push({
+      id,
+      key: id,
+      type: 'area',
+      title: 'New vis'
+    });
+    this.setState({tabs, selTab: id});
+  };
+
+  addBarChart = () => {
+    const {tabs} = this.state;
+    const id = tabs.length.toString();
+    tabs.push({
+      id,
+      key: id,
+      type: 'bar',
+      title: 'New vis'
+    });
+    this.setState({tabs, selTab: id});
+  };
 
   render() {
-    const {selTab, columns, rows, queryString} = this.state;
+    const {selTab, columns, rows, queryString, tabs} = this.state;
     return (
       <div className="App">
         <div className="flex-column">
@@ -63,14 +99,19 @@ export default class App extends React.Component {
               large={true}
               renderActiveTabPanelOnly={true}
               selectedTabId={selTab}>
-            <Tab id="0" title="Table" />
-            <Tab id="1" title="Bar chart" />
+            {
+              tabs.map( (tab: any) => { return <Tab {...tab} /> } )
+            }
             <Tab id="add" title="Add visualisation" />
           </Tabs>
 
           {selTab === '0' && <QueryResultTable {...{columns, rows}}/>}
-          {selTab === '1' && <Chart {...{columns, rows}} />}
-          {selTab === 'add' && this.renderAdd() }
+          {selTab === '1' && <Chart {...{columns, rows, type: 'bar'}} />}
+          {['0', '1', 'add'].indexOf(selTab) === -1 && <Chart {...{columns, rows, type: this.state.tabs[selTab as any as number].type}} />}
+          {selTab === 'add' && <div>
+            <Button onClick={this.addAreaChart}>Add area chart</Button>
+            <Button onClick={this.addBarChart}>Add bar chart</Button>
+          </div>}
         </div>
       </div>
     );
