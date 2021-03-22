@@ -1,0 +1,6 @@
+.resizable {
+  overflow: auto;
+  resize: both;
+  height: 400px;
+  width: auto;
+}

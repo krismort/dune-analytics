@@ -1,0 +1,514 @@
+{
+  "query_result": {
+    "retrieved_at": "2021-03-02T02:53:06.731Z",
+    "runtime": 34.306843996048,
+    "data": {
+      "rows": [
+        {
+          "week": "2021-03-01T00:00:00Z",
+          "cumulative_trades": 33677750
+        },
+        {
+          "week": "2021-02-22T00:00:00Z",
+          "cumulative_trades": 33530118
+        },
+        {
+          "week": "2021-02-15T00:00:00Z",
+          "cumulative_trades": 32620014
+        },
+        {
+          "week": "2021-02-08T00:00:00Z",
+          "cumulative_trades": 31541591
+        },
+        {
+          "week": "2021-02-01T00:00:00Z",
+          "cumulative_trades": 30398817
+        },
+        {
+          "week": "2021-01-25T00:00:00Z",
+          "cumulative_trades": 29307107
+        },
+        {
+          "week": "2021-01-18T00:00:00Z",
+          "cumulative_trades": 28269949
+        },
+        {
+          "week": "2021-01-11T00:00:00Z",
+          "cumulative_trades": 27260427
+        },
+        {
+          "week": "2021-01-04T00:00:00Z",
+          "cumulative_trades": 26402346
+        },
+        {
+          "week": "2020-12-28T00:00:00Z",
+          "cumulative_trades": 25642851
+        },
+        {
+          "week": "2020-12-21T00:00:00Z",
+          "cumulative_trades": 24698019
+        },
+        {
+          "week": "2020-12-14T00:00:00Z",
+          "cumulative_trades": 23687457
+        },
+        {
+          "week": "2020-12-07T00:00:00Z",
+          "cumulative_trades": 22659225
+        },
+        {
+          "week": "2020-11-30T00:00:00Z",
+          "cumulative_trades": 21479163
+        },
+        {
+          "week": "2020-11-23T00:00:00Z",
+          "cumulative_trades": 20469057
+        },
+        {
+          "week": "2020-11-16T00:00:00Z",
+          "cumulative_trades": 19582613
+        },
+        {
+          "week": "2020-11-09T00:00:00Z",
+          "cumulative_trades": 18595571
+        },
+        {
+          "week": "2020-11-02T00:00:00Z",
+          "cumulative_trades": 17718293
+        },
+        {
+          "week": "2020-10-26T00:00:00Z",
+          "cumulative_trades": 16818083
+        },
+        {
+          "week": "2020-10-19T00:00:00Z",
+          "cumulative_trades": 15742289
+        },
+        {
+          "week": "2020-10-12T00:00:00Z",
+          "cumulative_trades": 14757275
+        },
+        {
+          "week": "2020-10-05T00:00:00Z",
+          "cumulative_trades": 13782144
+        },
+        {
+          "week": "2020-09-28T00:00:00Z",
+          "cumulative_trades": 12613255
+        },
+        {
+          "week": "2020-09-21T00:00:00Z",
+          "cumulative_trades": 11490522
+        },
+        {
+          "week": "2020-09-14T00:00:00Z",
+          "cumulative_trades": 10391884
+        },
+        {
+          "week": "2020-09-07T00:00:00Z",
+          "cumulative_trades": 9310166
+        },
+        {
+          "week": "2020-08-31T00:00:00Z",
+          "cumulative_trades": 8401638
+        },
+        {
+          "week": "2020-08-24T00:00:00Z",
+          "cumulative_trades": 7303444
+        },
+        {
+          "week": "2020-08-17T00:00:00Z",
+          "cumulative_trades": 6371067
+        },
+        {
+          "week": "2020-08-10T00:00:00Z",
+          "cumulative_trades": 5535805
+        },
+        {
+          "week": "2020-08-03T00:00:00Z",
+          "cumulative_trades": 4744556
+        },
+        {
+          "week": "2020-07-27T00:00:00Z",
+          "cumulative_trades": 4146165
+        },
+        {
+          "week": "2020-07-20T00:00:00Z",
+          "cumulative_trades": 3674386
+        },
+        {
+          "week": "2020-07-13T00:00:00Z",
+          "cumulative_trades": 3279661
+        },
+        {
+          "week": "2020-07-06T00:00:00Z",
+          "cumulative_trades": 2999762
+        },
+        {
+          "week": "2020-06-29T00:00:00Z",
+          "cumulative_trades": 2745627
+        },
+        {
+          "week": "2020-06-22T00:00:00Z",
+          "cumulative_trades": 2510971
+        },
+        {
+          "week": "2020-06-15T00:00:00Z",
+          "cumulative_trades": 2297999
+        },
+        {
+          "week": "2020-06-08T00:00:00Z",
+          "cumulative_trades": 2142630
+        },
+        {
+          "week": "2020-06-01T00:00:00Z",
+          "cumulative_trades": 2011559
+        },
+        {
+          "week": "2020-05-25T00:00:00Z",
+          "cumulative_trades": 1877817
+        },
+        {
+          "week": "2020-05-18T00:00:00Z",
+          "cumulative_trades": 1780498
+        },
+        {
+          "week": "2020-05-11T00:00:00Z",
+          "cumulative_trades": 1677993
+        },
+        {
+          "week": "2020-05-04T00:00:00Z",
+          "cumulative_trades": 1589260
+        },
+        {
+          "week": "2020-04-27T00:00:00Z",
+          "cumulative_trades": 1511469
+        },
+        {
+          "week": "2020-04-20T00:00:00Z",
+          "cumulative_trades": 1444958
+        },
+        {
+          "week": "2020-04-13T00:00:00Z",
+          "cumulative_trades": 1382975
+        },
+        {
+          "week": "2020-04-06T00:00:00Z",
+          "cumulative_trades": 1335446
+        },
+        {
+          "week": "2020-03-30T00:00:00Z",
+          "cumulative_trades": 1290757
+        },
+        {
+          "week": "2020-03-23T00:00:00Z",
+          "cumulative_trades": 1258289
+        },
+        {
+          "week": "2020-03-16T00:00:00Z",
+          "cumulative_trades": 1216950
+        },
+        {
+          "week": "2020-03-09T00:00:00Z",
+          "cumulative_trades": 1150660
+        },
+        {
+          "week": "2020-03-02T00:00:00Z",
+          "cumulative_trades": 1059774
+        },
+        {
+          "week": "2020-02-24T00:00:00Z",
+          "cumulative_trades": 1007973
+        },
+        {
+          "week": "2020-02-17T00:00:00Z",
+          "cumulative_trades": 954166
+        },
+        {
+          "week": "2020-02-10T00:00:00Z",
+          "cumulative_trades": 896660
+        },
+        {
+          "week": "2020-02-03T00:00:00Z",
+          "cumulative_trades": 832249
+        },
+        {
+          "week": "2020-01-27T00:00:00Z",
+          "cumulative_trades": 784600
+        },
+        {
+          "week": "2020-01-20T00:00:00Z",
+          "cumulative_trades": 741951
+        },
+        {
+          "week": "2020-01-13T00:00:00Z",
+          "cumulative_trades": 700208
+        },
+        {
+          "week": "2020-01-06T00:00:00Z",
+          "cumulative_trades": 648039
+        },
+        {
+          "week": "2019-12-30T00:00:00Z",
+          "cumulative_trades": 606243
+        },
+        {
+          "week": "2019-12-23T00:00:00Z",
+          "cumulative_trades": 584262
+        },
+        {
+          "week": "2019-12-16T00:00:00Z",
+          "cumulative_trades": 565230
+        },
+        {
+          "week": "2019-12-09T00:00:00Z",
+          "cumulative_trades": 541003
+        },
+        {
+          "week": "2019-12-02T00:00:00Z",
+          "cumulative_trades": 522886
+        },
+        {
+          "week": "2019-11-25T00:00:00Z",
+          "cumulative_trades": 503097
+        },
+        {
+          "week": "2019-11-18T00:00:00Z",
+          "cumulative_trades": 477703
+        },
+        {
+          "week": "2019-11-11T00:00:00Z",
+          "cumulative_trades": 449078
+        },
+        {
+          "week": "2019-11-04T00:00:00Z",
+          "cumulative_trades": 435734
+        },
+        {
+          "week": "2019-10-28T00:00:00Z",
+          "cumulative_trades": 423068
+        },
+        {
+          "week": "2019-10-21T00:00:00Z",
+          "cumulative_trades": 410842
+        },
+        {
+          "week": "2019-10-14T00:00:00Z",
+          "cumulative_trades": 394196
+        },
+        {
+          "week": "2019-10-07T00:00:00Z",
+          "cumulative_trades": 380854
+        },
+        {
+          "week": "2019-09-30T00:00:00Z",
+          "cumulative_trades": 366908
+        },
+        {
+          "week": "2019-09-23T00:00:00Z",
+          "cumulative_trades": 356103
+        },
+        {
+          "week": "2019-09-16T00:00:00Z",
+          "cumulative_trades": 344668
+        },
+        {
+          "week": "2019-09-09T00:00:00Z",
+          "cumulative_trades": 335498
+        },
+        {
+          "week": "2019-09-02T00:00:00Z",
+          "cumulative_trades": 329229
+        },
+        {
+          "week": "2019-08-26T00:00:00Z",
+          "cumulative_trades": 320153
+        },
+        {
+          "week": "2019-08-19T00:00:00Z",
+          "cumulative_trades": 309573
+        },
+        {
+          "week": "2019-08-12T00:00:00Z",
+          "cumulative_trades": 299595
+        },
+        {
+          "week": "2019-08-05T00:00:00Z",
+          "cumulative_trades": 285742
+        },
+        {
+          "week": "2019-07-29T00:00:00Z",
+          "cumulative_trades": 272599
+        },
+        {
+          "week": "2019-07-22T00:00:00Z",
+          "cumulative_trades": 261872
+        },
+        {
+          "week": "2019-07-15T00:00:00Z",
+          "cumulative_trades": 251259
+        },
+        {
+          "week": "2019-07-08T00:00:00Z",
+          "cumulative_trades": 235844
+        },
+        {
+          "week": "2019-07-01T00:00:00Z",
+          "cumulative_trades": 220443
+        },
+        {
+          "week": "2019-06-24T00:00:00Z",
+          "cumulative_trades": 207506
+        },
+        {
+          "week": "2019-06-17T00:00:00Z",
+          "cumulative_trades": 190876
+        },
+        {
+          "week": "2019-06-10T00:00:00Z",
+          "cumulative_trades": 178701
+        },
+        {
+          "week": "2019-06-03T00:00:00Z",
+          "cumulative_trades": 168051
+        },
+        {
+          "week": "2019-05-27T00:00:00Z",
+          "cumulative_trades": 157751
+        },
+        {
+          "week": "2019-05-20T00:00:00Z",
+          "cumulative_trades": 147338
+        },
+        {
+          "week": "2019-05-13T00:00:00Z",
+          "cumulative_trades": 135705
+        },
+        {
+          "week": "2019-05-06T00:00:00Z",
+          "cumulative_trades": 118460
+        },
+        {
+          "week": "2019-04-29T00:00:00Z",
+          "cumulative_trades": 105233
+        },
+        {
+          "week": "2019-04-22T00:00:00Z",
+          "cumulative_trades": 98165
+        },
+        {
+          "week": "2019-04-15T00:00:00Z",
+          "cumulative_trades": 88370
+        },
+        {
+          "week": "2019-04-08T00:00:00Z",
+          "cumulative_trades": 79626
+        },
+        {
+          "week": "2019-04-01T00:00:00Z",
+          "cumulative_trades": 69484
+        },
+        {
+          "week": "2019-03-25T00:00:00Z",
+          "cumulative_trades": 59526
+        },
+        {
+          "week": "2019-03-18T00:00:00Z",
+          "cumulative_trades": 52382
+        },
+        {
+          "week": "2019-03-11T00:00:00Z",
+          "cumulative_trades": 47183
+        },
+        {
+          "week": "2019-03-04T00:00:00Z",
+          "cumulative_trades": 41111
+        },
+        {
+          "week": "2019-02-25T00:00:00Z",
+          "cumulative_trades": 32512
+        },
+        {
+          "week": "2019-02-18T00:00:00Z",
+          "cumulative_trades": 26461
+        },
+        {
+          "week": "2019-02-11T00:00:00Z",
+          "cumulative_trades": 20535
+        },
+        {
+          "week": "2019-02-04T00:00:00Z",
+          "cumulative_trades": 15443
+        },
+        {
+          "week": "2019-01-28T00:00:00Z",
+          "cumulative_trades": 12386
+        },
+        {
+          "week": "2019-01-21T00:00:00Z",
+          "cumulative_trades": 10281
+        },
+        {
+          "week": "2019-01-14T00:00:00Z",
+          "cumulative_trades": 8540
+        },
+        {
+          "week": "2019-01-07T00:00:00Z",
+          "cumulative_trades": 7637
+        },
+        {
+          "week": "2018-12-31T00:00:00Z",
+          "cumulative_trades": 6725
+        },
+        {
+          "week": "2018-12-24T00:00:00Z",
+          "cumulative_trades": 5734
+        },
+        {
+          "week": "2018-12-17T00:00:00Z",
+          "cumulative_trades": 4477
+        },
+        {
+          "week": "2018-12-10T00:00:00Z",
+          "cumulative_trades": 3289
+        },
+        {
+          "week": "2018-12-03T00:00:00Z",
+          "cumulative_trades": 2532
+        },
+        {
+          "week": "2018-11-26T00:00:00Z",
+          "cumulative_trades": 1289
+        },
+        {
+          "week": "2018-11-19T00:00:00Z",
+          "cumulative_trades": 895
+        },
+        {
+          "week": "2018-11-12T00:00:00Z",
+          "cumulative_trades": 521
+        },
+        {
+          "week": "2018-11-05T00:00:00Z",
+          "cumulative_trades": 275
+        },
+        {
+          "week": "2018-10-29T00:00:00Z",
+          "cumulative_trades": 89
+        }
+      ],
+      "columns": [
+        {
+          "friendly_name": "week",
+          "type": "datetime",
+          "name": "week"
+        },
+        {
+          "friendly_name": "cumulative_trades",
+          "type": "float",
+          "name": "cumulative_trades"
+        }
+      ]
+    }
+  }
+}
